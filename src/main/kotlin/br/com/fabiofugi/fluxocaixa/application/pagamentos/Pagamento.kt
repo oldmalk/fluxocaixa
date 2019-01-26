@@ -1,6 +1,6 @@
-package br.com.fabiofugi.fluxocaixa.api.model
+package br.com.fabiofugi.fluxocaixa.application.pagamentos
 
-class Payment(
+class Pagamento(
     val descricao: String = "",
     val conta_destino: String = "",
     val banco_destino: String = "",
